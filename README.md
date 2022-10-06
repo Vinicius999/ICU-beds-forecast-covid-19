@@ -16,7 +16,7 @@ This study sought to apply the SVR technique to predict the ICU bed occupancy ra
 
 ## Methodology
 - Training data:  85%
-- Test data:  15%
+- Validation data:  15%
 - Metric:  MAE (Mean Absolute Error)
 - No. of training and validation tests:  10
 - Prediction time intervals:  7, 14, 21 and 28 days after the last collection date
@@ -54,3 +54,6 @@ The figure below shows the result of this prediction:
 ## Paper
 
 SÁ, Gabriel Caldas Barros e et al. (2021) [Predição Da Taxa de Ocupação de Leitos de UTI Por COVID-19 No Brasil Usando SVR](https://www.even3.com.br/anais/cobicet/374955-predicao-da-taxa-de-ocupacao-de-leitos-de-uti-por-covid-19-no-brasil-usando-svr/).. In: Anais do Congresso Brasileiro Interdisciplinar em Ciência e Tecnologia. Anais...Diamantina(MG) UFVJM.
+
+
+
