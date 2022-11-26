@@ -2,6 +2,21 @@
 
 This study sought to apply the SVR technique to predict the ICU bed occupancy rate by COVID-19 in Brazil for 7, 14, 21 and 28 days after May 10, 2021. See the document [here](https://www.even3.com.br/anais/cobicet/374955-predicao-da-taxa-de-ocupacao-de-leitos-de-uti-por-covid-19-no-brasil-usando-svr/).
 
+---
+
+## Tecnologias
+
+<p style='margin: 16px 4px 32px;'>
+    <a href="https://www.python.org/" target="_blank" rel="noreferrer">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Vini-python" width="40" height="40" />
+    </a>
+	<a href="https://jupyter.org/" target="_blank" rel="noreferrer">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt="jupyter" width="40" height="40" />
+    </a>
+</p>
+
+---
+
 ## Data
 
 - Data Source:  https://bigdata-covid19.icict.fiocruz.br/
@@ -14,12 +29,17 @@ This study sought to apply the SVR technique to predict the ICU bed occupancy ra
 
   ![Figure](https://github.com/Vinicius999/ICU-beds-forecast-covid-19/blob/main/images/dataset-image.png)
 
+---
+
 ## Methodology
+
 - Training data:  85%
 - Validation data:  15%
 - Metric:  MAE (Mean Absolute Error)
 - No. of training and validation tests:  10
 - Prediction time intervals:  7, 14, 21 and 28 days after the last collection date
+
+---
 
 ## Results
 
@@ -50,6 +70,8 @@ The figure below shows the result of this prediction:
 - red dots: actual occupancy rates already available in the dataset;
 - blue curve: regression for the already known values
 - red curve: prediction of future days
+
+---
 
 ## Paper
 
